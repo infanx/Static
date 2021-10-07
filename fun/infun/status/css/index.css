@@ -1,7 +1,7 @@
 #header {
 	height:25rem;
 	position:relative;
-	background:url(../img/cover_PC.png) no-repeat 50%
+	background:url(../images/cover_PC.png) no-repeat 50%
 }
 #header:before {
 	content:"";
@@ -15,7 +15,7 @@
 	background:rgba(66,64,64,.15)
 }
 #header:after {
-	content:"Pixiv:86597206";
+	content:"";
 	position:absolute;
 	right:15px;
 	bottom:0;
@@ -139,7 +139,7 @@ div.card div.progress[data-v-cf75da64] {
 	color:#ff779a
 }
 body {
-	background:url(../img/bg_parts.png) repeat-y 0 0,url(../img/bg.png) repeat 0 0
+	background:url(../images/bg_parts.png) repeat-y 0 0,url(../images/bg.png) repeat 0 0
 }
 div.bar {
 	min-width:0!important
@@ -185,7 +185,7 @@ div.bar {
 }
 #app #header {
 	height:20rem;
-	background:url(../img/cover_mobile.png) no-repeat 50%!important
+	background:url(../images/cover_mobile.png) no-repeat 50%!important
 }
 }@media only screen and (max-width:720px) {
 	#uptime,tr td:nth-child(5) {
