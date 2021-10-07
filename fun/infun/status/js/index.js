@@ -3746,7 +3746,7 @@
 		};
 		function f(l, c, s, h, a, i) {
 			return Object(t["j"])(),
-			Object(t["d"])("div", d, [Object(t["f"])("div", e, [Object(t["f"])("h1", z, Object(t["p"])(l.header), 1), Object(t["f"])("p", null, Object(t["p"])(l.subHeader), 1)])])
+			Object(t["d"])("div", d, [Object(t["f"])("div", e, [Object(t["f"])("h2", z, Object(t["p"])(l.header), 1), Object(t["f"])("p", null, Object(t["p"])(l.subHeader), 1)])])
 		}
 		var n = Object(t["g"])({
 			name: "TheHeader",
@@ -3768,7 +3768,7 @@
 		},
 		o = Object(t["e"])(" 阿巴阿巴，若长时间出现此消息，请确保浏览器启用Javascript！"),
 		M = Object(t["f"])("br", null, null, -1),
-		w = Object(t["e"])("否则云监控服务端未启动或已断开。 ");
+		w = Object(t["e"])("否则是云监控服务端 未启动 或 已断开 。 ");
 		function r(l, c, s, h, a, i) {
 			return Object(t["j"])(),
 			Object(t["d"])("p", p, [o, M, w])
