@@ -4146,7 +4146,7 @@
 				s = Object(t["m"])(),
 				h = window.__PRE_CONFIG__.interval,
 				a = function() {
-					return v.a.get("/usr/local/ServerStatus/web/json/stats.json").then((function(l) {
+					return v.a.get("json/stats.json").then((function(l) {
 						c.value = l.data.servers,
 						s.value = Number(l.data.updated)
 					})).
